@@ -78,9 +78,11 @@ Revenue peaks in November each year (£1.16M in Nov 2010) ahead of the Christmas
 
 The top single product ("Regency Cakestand 3 Tier") generated £277,656 in revenue on its own. Outside the UK, the Netherlands, Germany, and EIRE (Ireland) are the largest markets — relevant if the business were to prioritise international marketing spend.
 
-## Interactive Dashboard
+## Interactive Dashboard (Python / Streamlit)
 
-Built with **Streamlit + Plotly** — filter by country and customer segment, explore KPIs, the RFM scatter plot, and top products/countries live.
+![Streamlit Dashboard](figures/streamlit_dashboard.png)
+
+Filter by country and customer segment, explore KPIs, the RFM scatter plot, and top products/countries live.
 
 ```bash
 pip install -r requirements.txt
@@ -89,7 +91,12 @@ streamlit run dashboard/app.py
 
 ## Power BI Dashboard
 
-A second, parallel dashboard was also built in Power BI Desktop to demonstrate BI-tool proficiency alongside the Python stack. See [`powerbi/`](powerbi/) for the build spec, DAX measures, and screenshots.
+A second, parallel dashboard was also built in Power BI Desktop to demonstrate BI-tool proficiency alongside the Python stack.
+
+![Power BI Executive Overview](powerbi/screenshots/executive_overview.png)
+![Power BI Customer Segmentation Detail](powerbi/screenshots/segmentation_detail.png)
+
+See [`powerbi/`](powerbi/) for the data model, DAX measures, and how to reproduce it.
 
 ## Tech Stack
 
