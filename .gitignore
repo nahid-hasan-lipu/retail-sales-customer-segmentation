@@ -1,0 +1,13 @@
+data/raw/*
+!data/raw/.gitkeep
+data/processed/transactions_clean.csv
+*.xlsx
+*.zip
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.streamlit/secrets.toml
+*.pbix
